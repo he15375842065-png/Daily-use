@@ -1,8 +1,9 @@
 name: Keep Supabase Alive
 
 on:
+  workflow_dispatch:  # 加这一行，允许手动触发
   schedule:
-    - cron: '0 0 */5 * *'  # 每5天执行一次
+    - cron: '0 0 */5 * *'
 
 jobs:
   ping:

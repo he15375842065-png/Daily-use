@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping Supabase
-        run: curl https://cqhmzlcmgtwxomubdzsv.supabase.co
+        run: curl https://cqhmzlcmgtwxomubdzsv.supabase.co/rest/v1/
